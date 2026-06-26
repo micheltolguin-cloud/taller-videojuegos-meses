@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Funciones</title>
+</head>
+<body>
+    <p>Instrucciones: En esta página hay dos funciones, cada una tiene sus instrucciones. Para volver a iniciar las funciones, limpia o recarga la página.</p>
+
+    <p><strong>Función 1:</strong> Presiona el botón para ver una lista de los 12 meses.</p>
+    <input type="button" value="Muestra meses" onclick="meses()">
+    <div id="resultadoMeses"></div>
+    
+    <br><hr><br>
+
+    <p><strong>Función 2:</strong> Introduce en la caja de texto el número del cual quieres conocer la tabla de multiplicar, después cliquea fuera de la caja de texto para ver el resultado.</p>
+    <input type="number" value="" onblur="tablaMulti(this.value)">
+    <div id="resultadoTabla"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
